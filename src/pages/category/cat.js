@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 
 const Category = ({ categories }) => {
   const router = useRouter();
-
+console.log(categories)
   return (
     <div className="min-h-screen bg-gray-100 py-8 px-4 sm:px-8 space-y-16">
       {/* Categories Section */}
