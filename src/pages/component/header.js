@@ -5,19 +5,17 @@ const Header = () => {
     <>
       <div className="flex  w-[1920px]   fixed ">
         <div
-          className="absolute w-[117px] h-[36px] top-[62px] left-[170px] gap-[2px]
-"
+          className="absolute w-[117px] h-[36px] top-[62px] left-[170px] gap-[2px]"
         >
           <p className="font-poppins font-semibold text-[24px] leading-[100%] tracking-[0%] whitespace-nowrap">
             Dua Page
           </p>
         </div>
         <div
-          className="absolute w-[371px] h-[52px]  left-[1150px] gap-[15px]
- flex flex-row items-center"
+          className="absolute w-[371px] h-[52px]  left-[1150px] gap-[15px] flex flex-row items-center"
         >
           <input
-            className="bg-white relative top-[54px] h-[52px] w-[371px] px-2 border border-gray-300 rounded-sm"
+            className="bg-white relative top-[54px] h-[52px] w-[371px] px-2 border border-gray-300 rounded-md"
             placeholder="Search by Dua Name"
           />
 

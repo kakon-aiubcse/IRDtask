@@ -5,6 +5,7 @@ import Alldua from "./dua/alldua";
 import Subategorydua from "./subcategory/subcat";
 import Header from "./component/header";
 import Sidebar from "./component/sidebar";
+import Settings from "./component/settings";
 
 export async function getStaticProps() {
   const { categories } = await fetchData();
@@ -31,7 +32,8 @@ export default function Home({ categories, subcategories, dua }) {
       {" "}
       <Header />
       <Sidebar/>
-      <div className="min-h-screen bg-gray-100 px-4 sm:px-8 space-y-16">
+      <Settings/>
+      <div className="min-h-screen  px-4 sm:px-8 space-y-16">
         {/* <Categorydua categories={categories} />
         <Subategorydua subcategories= {subcategories}/>
         <Alldua dua = {dua}/> */}
