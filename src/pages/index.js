@@ -29,13 +29,12 @@ export async function getStaticProps() {
 export default function Home({ categories, subcategories, dua }) {
   return (
     <>
-      {" "}
       <Header />
-      <Sidebar/>
-      <Settings/>
+      <Sidebar />
+      <Settings />
+      <Categorydua categories={categories} subcategories={subcategories} />
       <div className="min-h-screen  px-4 sm:px-8 space-y-16">
-        {/* <Categorydua categories={categories} />
-        <Subategorydua subcategories= {subcategories}/>
+        {/* <Subategorydua subcategories= {subcategories}/>
         <Alldua dua = {dua}/> */}
       </div>
     </>
